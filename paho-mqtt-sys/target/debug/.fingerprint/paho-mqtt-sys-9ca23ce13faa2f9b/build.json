@@ -1,0 +1,1 @@
+{"rustc":0,"features":"","target":0,"profile":0,"path":0,"deps":[],"local":[{"MtimeBased":[[1540861739,471460963],"build/paho-mqtt-sys-9ca23ce13faa2f9b/output"]},{"EnvBased":["PAHO_MQTT_C_DIR","/usr/local"]},{"EnvBased":["PAHO_MQTT_C_INCLUDE_DIR",null]},{"EnvBased":["PAHO_MQTT_C_LIB_DIR",null]}],"rustflags":[],"edition":"Edition2015"}

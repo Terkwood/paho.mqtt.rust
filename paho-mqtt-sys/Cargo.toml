@@ -10,6 +10,7 @@ Rust wrapper for the Paho MQTT C Client Library.
 [features]
 #default = ["paho_mqtt_1_2_1"]
 #default = []
+ssl = []
 buildtime_bindgen = ["bindgen"]
 bundled = ["cmake"]
 

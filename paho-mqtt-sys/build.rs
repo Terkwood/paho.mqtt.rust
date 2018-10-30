@@ -55,13 +55,13 @@ fn main() {
     build::main();
 }
 
-// Determine if we're usine SSL or not, by feature request
+// Determine if we're using SSL or not, by feature request
 fn link_lib() -> &'static str {
-    if cfg!(feature = "no-ssl") {
-        "paho-mqtt3a-static"
+    if cfg!(feature = "ssl") {
+        "paho-mqtt3as-static"
     }
     else {
-        "paho-mqtt3as-static"
+        "paho-mqtt3a-static"
     }
 }
 
