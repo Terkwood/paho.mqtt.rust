@@ -1,6 +1,0 @@
-cargo:rerun-if-changed=paho.mqtt.c/
-cargo:rerun-if-env-changed=PAHO_MQTT_C_DIR
-cargo:rerun-if-env-changed=PAHO_MQTT_C_INCLUDE_DIR
-cargo:rerun-if-env-changed=PAHO_MQTT_C_LIB_DIR
-cargo:rustc-link-lib=paho-mqtt3a-static
-cargo:rustc-link-search=/usr/local/lib
