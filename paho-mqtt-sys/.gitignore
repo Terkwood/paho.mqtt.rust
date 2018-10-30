@@ -1,0 +1,9 @@
+/target/
+**/*.rs.bk
+**/*.orig
+Cargo.lock
+/.hg
+/.hgtags
+/.hgignore
+/*.vp*
+
