@@ -174,5 +174,10 @@ impl Client {
     pub fn start_consuming(&mut self) -> mpsc::Receiver<Option<Message>> {
         self.cli.start_consuming()
     }
+
+    /// Hacked version which allows crossbeam_channel usage.
+    pub fn start_consuming_crossbeam(&mut self) -> bool {
+        
+    }
 }
 
